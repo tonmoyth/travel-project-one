@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/*-----------manu strt------------*/
+
+.manu{
+    position: relative;
+    padding: 10px;
+    background-color: #fff;
+}
+.manu .travel-logo{
+    width: 35%;
+    float: left;
+    padding-left: 100px;
+}
+.manu::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.manu .travel-logo img {
+	width: 43%;
+	height: 40px;
+}
+.manu .naviber ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.manu .naviber{
+    float: left;
+    padding-top: 5px;
+}
+
+.manu .naviber ul li{
+    float: left;
+}
+.manu .naviber ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    transition: 0.2s;
+}
+.manu .naviber ul li a::after{
+    content: '';
+    display: block;
+    background-color: #636e72;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    width: 0;
+    height: 3px;
+    transition: 0.1s;
+}
+
+.manu .naviber ul li a:hover::after{
+    width: 77%;
+   
+}
+.manu .naviber ul li a:hover{
+    color: #00b894;
+}
+ 
+.manu .book a {
+	border-radius: 40px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	padding: 8px 13px;
+	font-size: 14px;
+    background: linear-gradient(to left,#00b894,#55efc4);
+}
+.our-package{
+    height: 90vh;
+    background: url(img/Fast-background.jpg) no-repeat center center / cover;
+    position: relative;
+}
+.manu .book{
+    position: absolute;
+    top: 24px;
+    right: 130px;
+}
+.manu .book a:hover{
+    background: linear-gradient(to left,#b2bec3,#b2bec3);
+    border: none;
+    color: #fff;
+    transition: 0.4s;
+}
+
+/*-----------manu End------------*/
+
+
+
+/*-----------our-package strt------------*/
+
+.our-package .block .price {
+	position: absolute;
+	top: 43px;
+	right: 43px;
+}
+.our-package .heddar {
+	position: absolute;
+	top: 165px;
+	left: 148px;
+    color: #fff;
+    margin-bottom: 13px;
+}
+.our-package .heddar p{
+    margin-bottom: 7px;
+}
+.search{
+    background-color: hsla(0, 0%, 100%,0.6);
+    width: 78%;
+    padding: 20px;
+}
+.our-package .search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.our-package .search .w-33-33{
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+.our-package .search input{
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    background-color: rgb(223, 230, 233);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+.our-package .search input:focus{
+    border: 1px solid #00b894;
+}
+.our-package .search .block label{
+  font-size: 14px;
+}
+.our-package .search .more{
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.our-package .search .more a{
+    text-decoration: none;
+    background-image: linear-gradient(to left,hsl(168, 100%, 36%),hsl(179, 94%, 20%));
+    padding:7px 25px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.our-package .search .more a:hover{
+    background-image: linear-gradient(to left,hsl(168, 94%, 30%),hsl(179, 89%, 14%));
+}
+.our-package .icon {
+	width: 19%;
+	position: absolute;
+	top: 80%;
+	left: 786px;
+	transform: translate(-50%, -50%);
+}
+.our-package .icon img{
+    float: left;
+    width: 10%;
+    transition: 0.2s;
+}
+.our-package .icon a:hover img{
+    width: 9%;
+}
+
+/*-----------our-package End------------*/
+
+
+
+
+
+
+
+
+/*-----------most-vasited strt------------*/
+
+
+.most-vasited{
+    background-color: rgba(223, 230, 233,0.5);
+    height: 178vh;
+    padding: 70px 118px;
+    position: relative;
+}
+.most-vasited .hadding {
+	position: absolute;
+	top: 57px;
+	left: 158px;
+}
+.most-vasited .card-contant .w-33-33{
+    width: 33.33%;
+    padding: 40px;
+    float: left;
+}
+.most-vasited .card{
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 0px hsla(0, 0%, 0%, 0.471);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.most-vasited .card:hover{
+    transform: scale(1.05)
+}
+.most-vasited .card .img img{
+    width: 100%;
+    height: 170px;
+}
+.most-vasited .name{
+    padding: 10px 24px;
+}
+.most-vasited .line{
+    border: 1px solid black;
+    border-width: 1px 0 0 0;
+    width: 85%;
+    margin: 10px 20px;
+}
+.most-vasited .cultural{
+    position: relative;
+}
+.most-vasited .cultural .w-50{
+    padding-left: 22px;
+}
+.most-vasited .cultural .w-50 h2 {
+	position: absolute;
+	top: 5px;
+	right: 25px;
+}
+.most-vasited .pera{
+    padding: 10px 20px;
+    text-align: justify;
+}
+.most-vasited .details{
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+}
+.most-vasited .details a{
+    text-decoration: none;
+    background: linear-gradient(to left,#00b894,#55efc4);
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+.most-vasited .details a:hover{
+    background: linear-gradient(to left,#b2bec3,#b2bec3);
+    color: black;
+}
+
+/*-----------most-vasited End------------*/
+
+
+
+.buttom{
+    background:url(img/socund-backgroud.jpg)no-repeat center center / cover;
+    width: 100%;
+    height: 600px;
+    clear: both;
+    overflow: hidden;
+    position: relative;
+}
+.buttom .heddar-area{
+    padding: 10px;
+    width: 40%;
+    position: absolute;
+    top: 18%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.buttom .heddar-area .w-20{
+    float: left;
+    padding: 15px;
+}
+
+.heddar-area .left{
+   text-align: justify;
+}
+.heddar-area .left p{
+    margin: 6px 0;
+}
+.heddar-area .center{
+    margin-top: 15px;
+}
+.heddar-area .center input{
+   padding: 5px;
+   border-radius: 15px;
+   border: 2px solid white;
+   outline: none;
+   background: none;
+   width: 100%;
+   color: #fff;
+   transition: 0.3s;
+}
+.heddar-area .center input:focus{
+    border: 2px solid #00b894;
+}
+::placeholder{
+    color: #fff;
+    font-size: 15px;
+}
+
+.heddar-area .right{
+    padding: 16px 0px 0px 0px;
+}
+.heddar-area .right Button{
+    padding: 5px 15px;
+    background: linear-gradient(to left,#00b894,#55efc4);
+    border: none;
+    border-radius: 13px;
+    color: #fff;
+    transition: 0.3s;
+}
+.heddar-area .right Button:hover{
+    background: linear-gradient(to left,#b2bec3,#b2bec3);
+    color: black;
+}
+
+
+
+
+.copy-right{
+    width: 75%;
+    height: 270px;
+    background-color: hsla(0, 0%, 100%,0.7);
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    padding: 45px 20px;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+.copy-right .w-40{
+    width: 40%;
+    float: left;
+}
+.copy-right .left{
+    padding-right: 15px;
+}
+.copy-right .pera{
+    padding: 15px;
+    text-align: justify;
+}
+.copy-right .img img{
+    width: 30%;
+}
+.copy-right .icon{
+    padding: 15px;
+}
+.copy-right .icon img{
+    width: 7%;
+}
+.copy-right .icon ul{
+    list-style: none;
+}
+.copy-right .icon ul li img{
+    float: left;
+    transition: 0.3s;
+}
+.copy-right .icon ul li:hover img{
+    width: 6%;
+}
+
+.centar-one{
+    overflow: hidden;
+}
+.centar-one .w-33 {
+	width: 33.33%;
+	padding: 0px 45px;
+	float: left;
+}
+.centar-one .heddar{
+    padding: 10px 0;
+}
+.agency-name ul{
+    list-style: none;
+}
+.agency-name ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    padding-left: 17px;
+    display: block; 
+    padding: 8px 0;
+    transition: 0.3s;
+}
+.agency-name ul li a:hover{
+    transform: translate(10px);
+}
+.centar-two{
+    padding-left: 15px;
+}

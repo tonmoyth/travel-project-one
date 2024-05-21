@@ -1,0 +1,101 @@
+@media only screen and (max-width:810px){
+    .manu .travel-logo {
+        width: 45%;
+        padding-left: 0px;
+    }
+    .manu .book {
+        position: absolute;
+        top: 62px;
+        right: 75px;
+    }
+    .our-package {
+        height: 40vh;
+    }
+    .our-package .heddar {
+        top: 65px;
+        left: 89px;
+    }
+    .our-package .search {
+        top: 45%;
+    }
+    .our-package .icon {
+        width: 30%;
+        position: absolute;
+        top: 83%;
+        left: 502px;
+        transform: translate(-50%, -50%);
+    }
+    .most-vasited {
+        padding: 70px 75px;
+    }
+    .most-vasited .card-contant .w-33-33 {
+        width: 49.33%;
+        padding: 20px 24px;
+    }
+    .most-vasited .hadding {
+        position: absolute;
+        top: 40px;
+        left: 100px;
+    }
+    .most-vasited {
+        height: 147vh;
+    }
+    .buttom {
+        height: 90vh;
+    }
+    .buttom .heddar-area {
+        width: 65%;
+        top: 10%;
+    }
+    .copy-right {
+        width: 90%;
+        height: 270px;
+        left: 50%;
+        top: 30%;
+    }
+    .centar-one .heddar {
+        padding: 0px 0;
+    }
+    .centar-one .w-33 {
+        padding: 0px 15px;
+    }
+
+}
+@media only screen and (max-width:428px){
+    .manu .travel-logo {
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .manu .book {
+        position: absolute;
+        top: 103px;
+        right: 65px;
+    }
+    .our-package .heddar {
+        top: 32px;
+        left: 89px;
+        font-size: 11px;
+        text-align: center;
+    }
+    .our-package .search .w-33-33 {
+        width: 99.33%;
+        padding: 10px;
+    }
+    .our-package {
+        height: 50vh;
+    }
+    .our-package .block .price {
+        position: absolute;
+        top: 193px;
+        right: 35px;
+    }
+    .most-vasited .card-contant .w-33-33 {
+        width: 90.33%;
+        padding: 20px 0px;
+        margin-left: 23px;
+    }
+    .most-vasited {
+        height: 330vh;
+    }
+}
